@@ -1,0 +1,13 @@
+.elements__grid-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0;
+  padding-left: 25px;
+  max-width: calc(100% - 42px - 21px - 21px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

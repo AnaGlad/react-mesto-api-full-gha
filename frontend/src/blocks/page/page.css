@@ -1,0 +1,17 @@
+.page {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+@media (max-width: 917px) {
+  .page {
+    margin: 0 19px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    margin: 0;
+  }
+}

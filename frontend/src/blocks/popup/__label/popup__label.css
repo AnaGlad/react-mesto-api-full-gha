@@ -1,0 +1,4 @@
+.popup__label {
+  min-height: 65px;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,19 @@
+.profile__edit-button {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  padding: 0;
+  background-image: url(../../../images/pensil_button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+    background-size: 7.5px 7.5px;
+  }
+}

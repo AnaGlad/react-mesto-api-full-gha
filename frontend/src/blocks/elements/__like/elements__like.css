@@ -1,0 +1,6 @@
+.elements__like {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 21px 22px auto;
+  max-height: 38px;
+  }

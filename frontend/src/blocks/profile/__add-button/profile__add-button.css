@@ -1,0 +1,23 @@
+.profile__add-button {
+  justify-self: flex-end;
+  margin-left: auto;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-image: url(../../../images/cross_button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+  .profile__add-button {
+    width: 100%;
+    background-size: 16px 16px;
+  }
+}

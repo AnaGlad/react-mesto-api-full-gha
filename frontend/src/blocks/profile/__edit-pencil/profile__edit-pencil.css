@@ -1,0 +1,11 @@
+.profile__edit-pencil {
+  background-image: url(../../../images/pensil_edit_profile.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  opacity: 0;
+  width: 26px;
+  height: 26px;
+}
