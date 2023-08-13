@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/AnaGlad/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
 IP 158.160.116.36
 
-Frontend https://...
+Frontend https://avp.nomoreparties.co
 
-Backend https://...
+Backend https://api.avp.nomoreparties.co

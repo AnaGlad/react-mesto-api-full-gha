@@ -1,3 +1,4 @@
+require('dotenv/config')
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -30,7 +31,6 @@ app.use(auth);
 app.use(routes);
 
 app.use(errorLogger);
-
 app.use(errors());
 app.use(errorHandler);
 
