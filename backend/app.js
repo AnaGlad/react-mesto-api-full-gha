@@ -20,7 +20,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/mestodb', {
 });
 
 const app = express();
-app.use(cors({ origin: ['http://localhost:3001'], credentials: true }));
+app.use(cors({ origin: ['http://localhost:3001', 'http://avp.nomoreparties.co', 'https://avp.nomoreparties.co'], credentials: true }));
 app.use(bodyParser.json());
 
 app.use(requestLogger);
