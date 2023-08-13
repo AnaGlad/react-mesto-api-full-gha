@@ -11,7 +11,7 @@ const BadRequestError = require('../errors/bad-request-err'); // 400
 
 const OK_CODE = 200;
 const CREATED_CODE = 201;
-const { JWT_SECRET } = process.env;
+const { JWT_SECRET = 'sometoken' } = process.env;
 
 function getUserList(req, res, next) {
   return User.find({})
