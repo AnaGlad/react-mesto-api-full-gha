@@ -182,6 +182,7 @@ function App() {
       .then((data) => {
         localStorage.setItem('token', data.token);
         checkToken();
+        api.updateHeaders(data.token)
         navigate('/');
       })
       .catch((error) => {

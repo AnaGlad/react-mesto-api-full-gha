@@ -3,9 +3,18 @@ class Api {
   constructor(options) {
     this._baseUrl = options.baseUrl;
     const token = localStorage.getItem('token');
-    // this._headers = options.headers;
-    this._headers={'Content-Type': 'application/json',
-    'Authorization': `Bearer ${token}`,}
+    this._headers = {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`,
+    }
+    console.log(this._headers);
+  }
+
+  updateHeaders(token) {
+    this._headers = {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`,
+    }
   }
 
   _checkResponse(res) {
@@ -18,7 +27,6 @@ class Api {
   getInitialCards() {
     return fetch(`${this._baseUrl}cards`, {
       headers: this._headers,
-      // 'Authorization': `Bearer ${token}`,
       credentials: "include",
     }).then(this._checkResponse);
   }
@@ -31,7 +39,7 @@ class Api {
     }).then(this._checkResponse);
   }
 
-  changeAvatar(url, ) {
+  changeAvatar(url,) {
     return fetch(`${this._baseUrl}users/me/avatar`, {
       method: 'PATCH',
       headers: this._headers,
